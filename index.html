@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLUX</h2>
+                <i class="fas fa-bars" onclick="abrirMenu()" ></i>
+                <nav id="menu">
+                    <i id=fecharMenu class="fas fa-times" onclick="fecharMenu()"></i>
+                    <a href="/" onclick="fecharMenu()">Inicio</a>
+                    <a href="#series" onclick="fecharMenu()">Séries</a>
+                    <a href="#filmes" onclick="fecharMenu()">Filmes</a>
+                    <a href="#documentarios" onclick="fecharMenu()">Documentários</a>
+                </nav>
+        </div>
+    </header>
+    <main>
+        <div class="cartazPrincipal">
+            <div class="wrapper">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdivél</p>
+                <div class="botoes">
+                    <a href="./video.html" target="_top">
+                    <button role="button" class="botao botaoPlay" >
+                        <i class="fas fa-play"></i>
+                         ASSISTIR  
+                    </button>
+                </a>
+                <a href="https://pt.wikipedia.org/wiki/House_of_Cards_(s%C3%A9rie_americana)" target="_blank">
+                    <button role="button" class="botao botaoMais">
+                        <i class="fas fa-exclamation-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <h2 id="series" class='subTitulo'>Séries</h2>
+        <div id='carousel' class="owl-carousel owl-theme">
+            <img src="./img/mini1.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini2.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini3.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini4.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini5.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini6.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini7.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini8.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini9.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini10.jpg" alt="baner do filme ou seriado">
+        </div>
+        <h2 id="filmes" class='subTitulo'>Filmes</h2>
+        <div id='carousel' class="owl-carousel owl-theme">
+            <img src="./img/mini1.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini2.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini3.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini4.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini5.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini6.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini7.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini8.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini9.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini10.jpg" alt="baner do filme ou seriado">
+        </div>
+        <h2 id="documentarios" class='subTitulo'>Documentários</h2>
+        <div id='carousel' class="owl-carousel owl-theme">
+            <img src="./img/mini1.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini2.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini3.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini4.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini5.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini6.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini7.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini8.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini9.jpg" alt="baner do filme ou seriado">
+            <img src="./img/mini10.jpg" alt="baner do filme ou seriado">
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/9deb999ed4.js" crossorigin="anonymous"></script>
+    <script src='./js/owl/jquery.min.js'></script>
+    <script src='./js/owl/owl.carousel.min.js'></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
